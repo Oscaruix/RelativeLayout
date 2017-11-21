@@ -10,7 +10,161 @@
       {
         "title": "test",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 441,
+                "y": 128
+              },
+              "angle": 0,
+              "id": "cdf29619-e191-4aa9-803a-38b8b9b53cc8",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "process 0"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 240,
+                "y": 370
+              },
+              "angle": 0,
+              "id": "005972cc-3369-4498-8378-f7c1ab967e15",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "store 1"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 648,
+                "y": 263
+              },
+              "angle": 0,
+              "id": "d2930d68-f8bd-4546-b3ea-fa67aac1ea19",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "actor 2"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "cdf29619-e191-4aa9-803a-38b8b9b53cc8"
+              },
+              "target": {
+                "id": "d2930d68-f8bd-4546-b3ea-fa67aac1ea19"
+              },
+              "vertices": [
+                {
+                  "x": 682,
+                  "y": 203
+                }
+              ],
+              "id": "984ab5f7-52b1-44f4-8db0-104dbb7b114b",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 3",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 918,
+                "y": 1179
+              },
+              "target": {
+                "x": 110,
+                "y": 100
+              },
+              "vertices": [
+                {
+                  "x": 489,
+                  "y": 46
+                },
+                {
+                  "x": 108,
+                  "y": 31
+                },
+                {
+                  "x": 92,
+                  "y": 96
+                }
+              ],
+              "id": "dcc67425-43a3-46fd-bbb2-18626be5c887",
+              "z": 5,
+              "attrs": {}
+            }
+          ]
+        },
+        "size": {
+          "height": 1180.1263427734375,
+          "width": 1625.844482421875
+        }
       }
     ],
     "reviewer": "test"
